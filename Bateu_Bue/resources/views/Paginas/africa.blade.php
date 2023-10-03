@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner-content">
-                        <h2>Notícias</h2>
+                        <h2>África</h2>
                         <span>O berço da humanidade</span>
                     </div>
                 </div>

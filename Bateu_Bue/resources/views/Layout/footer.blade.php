@@ -11,12 +11,12 @@
             <div class="col-lg-3">
                 <h4>Links Úteis</h4>
                 <ul>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">Desporto</a></li>
-                    <li><a href="#">Cultura</a></li>
-                    <li><a href="#">Política</a></li>
-                    <li><a href="#">Notícias</a></li>
-                    <li><a href="#">Contactos</a></li>
+                    <li><a href="{{route('pag_inicial')}}">Homepage</a></li>
+                    <li><a href="{{route('pag_desporto')}}">Desporto</a></li>
+                    <li><a href="{{route('pag_cultura')}}">Cultura</a></li>
+                    <li><a href="{{route('pag_politica')}}">Política</a></li>
+                    <li><a href="{{route('pag_noticias')}}">Notícias</a></li>
+                    <li><a href="{{route('pag_contactos')}}">Contactos</a></li>
                 </ul>
             </div>
             <div class="col-lg-12">

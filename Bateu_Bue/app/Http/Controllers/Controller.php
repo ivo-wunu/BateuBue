@@ -13,9 +13,24 @@ class Controller extends BaseController
     public function home(){
         return view('Paginas/home');
     }
-    public function contactos(){
-        return view('Paginas/contactos');
+    public function desporto(){
+        return view('Paginas/desporto');
     }
+    public function africa(){
+        return view('Paginas/africa');
+    }
+    public function cultura(){
+        return view('Paginas/cultura');
+    }
+    public function politica(){
+        return view('Paginas/politica');
+    }
+    public function noticias(){
+        return view('Paginas/noticias');
+    }
+
+
+
 
 
 }

@@ -32,7 +32,8 @@
                         <h2>Entre em contacto Connosco!</h2>
                         <!--<span>Details to details is what makes Hexashop different from the other themes.</span>-->
                     </div>
-                    <form id="contact" action="" method="post">
+                    <form id="contact" action="{{route('pag_entar_contact')}}" method="post">
+                        @csrf
                         <div class="row">
                           <div class="col-lg-6">
                             <fieldset>
@@ -49,6 +50,7 @@
                               <textarea name="message" rows="6" id="message" placeholder="Esvreva aqui à sua mensagem!"></textarea>
                             </fieldset>
                           </div>
+                          {{session('msg')}}
                           <div class="col-lg-12">
                             <fieldset>
                               <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
