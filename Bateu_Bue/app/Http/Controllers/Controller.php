@@ -13,4 +13,9 @@ class Controller extends BaseController
     public function home(){
         return view('Paginas/home');
     }
+    public function contactos(){
+        return view('Paginas/contactos');
+    }
+
+
 }

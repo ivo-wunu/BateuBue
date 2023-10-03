@@ -4,7 +4,7 @@
             <div class="col-lg-3">
                 <div class="first-item">
                     <div class="logo">
-                        <img src="assets/images/bateu-bwelogo.png.jpg">
+                        <img src="{{asset('assetes/images/bateu-bwelogo.png.jpg')}}">
                     </div>
                 </div>
             </div>

@@ -132,7 +132,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/luanda.jpg">
+                                <img src="{{asset('assetes/images/luanda.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
@@ -147,7 +147,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/rdc2.jpg" alt="">
+                                <img src="{{asset('assetes/images/rdc2.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>RD Congo. Transição ecológica, a que custo? Relatório expôe face oculta da extração de cobalto e cibre.</h6>
@@ -162,7 +162,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/cabo.jpg" alt="">
+                                <img src="{{asset('assetes/images/cabo.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>Cabo verde e FAQ assinam programa para acabar com a insegurança alimentar.</h6>
@@ -177,7 +177,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/Marrocos.jpg" alt="">
+                                <img src="{{asset('assetes/images/Marrocos.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h4>Marroquinos disponibilizam-se para apoiar populações afectada.</h4>
@@ -215,7 +215,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/iraque.jpg" alt="">
+                                <img src="{{asset('assetes/images/iraque.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>Salwan Momika motivou uma vaga de indignações internacionais em junho, ao queimar e espezinhar o Corão em frente da maior mesquita de Estocolmo no primeiro dia do Aida al-Adha, a "Festa do sacrifício", celebrada pelos muçulmanos à escala global</h6>
@@ -230,7 +230,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/russia.jpg">
+                                <img src="{{asset('assetes/images/russia.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>O presidente da Rússia, Vladimir Putin, está sob crescente pressão para adotar uma abordagem ainda mais radical na guerra da Ucrânia.</h6>
@@ -245,7 +245,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/sic.jpg">
+                                <img src="{{asset('assetes/images/sic.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>A ilha italiana de Lampedusa recebeu, nesta terça-feira, um número recorde de desembarques, com mais de 2.800 migrantes a bordo de cerca 70 embarcações desde a meia-noite, ao mesmo tempo que a guarda-costeira resgatou 800 pessoas no Mediterrâneo.</h6>
@@ -260,7 +260,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/tuga.jpg">
+                                <img src="{{asset('assetes/images/tuga.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>O Presidente da República recusou esta terça-feira que o Conselho de Estado esteja desprestigiado, depois das recentes críticas às fugas de informações daquele órgão, e defendeu que é "um termómetro do sentir da sociedade portuguesa".</h6>
@@ -298,7 +298,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/delero2.jpg" alt="">
+                                <img src="{{asset('assetes/images/delero2.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>Delero King diz que é possível viver da música em angola porque faz um milhão por semana.</h6>
@@ -313,7 +313,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/delero2.jpg" alt="">
+                                <img src="{{asset('assetes/images/delero2.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>Delero King diz que é possível viver da música em angola porque faz um milhão por semana.</h6>
@@ -328,7 +328,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/delero2.jpg">
+                                <img src="{{asset('assetes/images/delero2.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>Delero King diz que é possível viver da música em angola porque faz um milhão por semana.</h6>
@@ -343,7 +343,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="assets/images/delero2.jpg">
+                                <img src="{{asset('assetes/images/delero2.jpg')}}">
                             </div>
                             <div class="down-content">
                                 <h6>Delero King diz que é possível viver da música em angola porque faz um milhão por semana.</h6>
@@ -385,12 +385,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="first-image">
-                                <img src="assets/images/ong.webp">
+                                <img src="{{asset('assetes/images/ong.webp')}}">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="second-image">
-                                <img src="assets/images/unita.webp" alt="">
+                                <img src="{{asset('assetes/images/unita.webp')}}" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,23 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <title>BATEU-BWÉ PORTAL DE INFORMAÇÃO</title>
-
-
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="{{asset('assetes/text/css" href="assets/css/bootstrap.min.css')}}">
-
-    <link rel="stylesheet" type="{{asset('assetes/text/css" href="assets/css/font-awesome.css')}}">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assetes/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assetes/css/font-awesome.css')}}">
     <link rel="stylesheet" href="{{asset('assetes/css/templatemo-hexashop.css')}}">
-
     <link rel="stylesheet" href="{{asset('assetes/css/owl-carousel.css')}}">
-
     <link rel="stylesheet" href="{{asset('assetes/css/lightbox.css')}}">
 
-    </head>
+</head>
     
-    <body>
-    
+<body>    
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -69,7 +62,7 @@
 
     <!-- Plugins -->
     <script src="{{asset('assetes/js/owl-carousel.js')}}"></script>
-    <script src="{{asset('assetes/js/accordions.js')}}"></script>
+    <script src="{{asset('../assetes/js/accordions.js')}}"></script>
     <script src="{{asset('assetes/js/datepicker.js')}}"></script>
     <script src="{{asset('assetes/js/scrollreveal.min.js')}}"></script>
     <script src="{{asset('assetes/js/waypoints.min.js')}}"></script>
@@ -80,7 +73,7 @@
     <script src="{{asset('assetes/js/isotope.js')}}"></script> 
     
     <!-- Global Init -->
-    <script src="assetes/js/custom.js"></script>
+    <script src="{{asset('assetes/js/custom.js')}}"></script>
 
     <script>
 
@@ -100,5 +93,5 @@
 
     </script>
 
-  </body>
+</body>
 </html>

@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [Controller:: class, 'home'])->name('pagina_inicial');
+Route::get('/contactos', [Controller:: class, 'contactos'])->name('pagina_contactos');
