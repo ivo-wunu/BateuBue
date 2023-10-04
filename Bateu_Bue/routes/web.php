@@ -20,6 +20,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/menu', [Controller:: class, 'menu'])->name('pag_menu');
+
 Route::get('/home', [Controller:: class, 'home'])->name('pag_inicial');
 Route::get('/desporto', [Controller::class, 'desporto'])->name('pag_desporto');
 Route::get('/africa', [Controller::class, 'africa'])->name('pag_africa');
@@ -29,4 +31,16 @@ Route::get('/politica', [ContactoController:: class, 'politica'])->name('pag_pol
 Route::get('/noticias', [ContactoController:: class, 'noticias'])->name('pag_noticias');
 
 
-Route::post('/entar_contacto', [ContactoController:: class, 'entar_contacto'])->name('pag_entar_contact');
+//Route::post('/entar_contacto', [ContactoController:: class, 'entar_contacto'])->name('pag_entar_contact');
+
+
+//Funções Para Os Formularios De Pubçicação De Conteudos
+Route::get('/form_africa', [ContactoController:: class, 'form_africa'])->name('pag_form_africa');
+Route::get('/form_cultura', [ContactoController:: class, 'form_cultura'])->name('pag_form_cultura');
+Route::get('/form_desporto', [ContactoController:: class, 'form_desporto'])->name('pag_form_desporto');
+Route::get('/form_noticia_diaria', [ContactoController:: class, 'form_noticia_diaria'])->name('pag_form_noticia_diaria');
+Route::get('/form_noticia', [ContactoController:: class, 'form_noticia'])->name('pag_form_noticia');
+Route::get('/form_politica', [ContactoController:: class, 'form_politica'])->name('pag_form_politica');
+
+//
+Route::post('/cadastro', [FuncoesController:: class, 'cadastrar_noticia'])->name('pag_cadastro');

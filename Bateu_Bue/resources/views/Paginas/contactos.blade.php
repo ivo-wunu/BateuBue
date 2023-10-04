@@ -32,7 +32,7 @@
                         <h2>Entre em contacto Connosco!</h2>
                         <!--<span>Details to details is what makes Hexashop different from the other themes.</span>-->
                     </div>
-                    <form id="contact" action="{{route('pag_entar_contact')}}" method="post">
+                    <form id="contact" action="" method="post">
                         @csrf
                         <div class="row">
                           <div class="col-lg-6">

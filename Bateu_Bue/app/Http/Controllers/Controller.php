@@ -29,6 +29,29 @@ class Controller extends BaseController
         return view('Paginas/noticias');
     }
 
+    //Funções Para Os Formularios De Pubçicação De Conteudos
+    public function Menu(){
+        return view('Post/manster_form');
+    }
+
+    public function form_africa(){
+        return view('Formularios/form_africa');
+    }
+    public function form_cultura(){
+        return view('Formularios/form_cultura');
+    }
+    public function form_desporto(){
+        return view('Formularios/form_desporto');
+    }
+    public function form_noticia_diaria(){
+        return view('Formularios/form_noticia_diaria');
+    }
+    public function form_noticia(){
+        return view('Formularios/form_noticias');
+    }
+    public function form_politica(){
+        return view('Formularios/form_politica');
+    }
 
 
 
