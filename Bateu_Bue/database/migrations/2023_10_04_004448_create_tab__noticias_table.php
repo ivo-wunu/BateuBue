@@ -14,6 +14,10 @@ return new class extends Migration
         Schema::create('tab__noticias', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('titulo_not');
+            $table->string('descricao_not');
+            $table->string('conteudo_not');
+            $table->string('imagem_not'); 
         });
     }
 

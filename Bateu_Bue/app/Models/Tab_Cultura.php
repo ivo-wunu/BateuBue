@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Tab_Cultura extends Model
 {
     use HasFactory;
+    protected $fillable =[
+        'titulo_cult',
+        'descricao_cult',
+        'conteudo_cult',
+        'imagem_cult',
+    ];
 }

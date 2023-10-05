@@ -14,6 +14,10 @@ return new class extends Migration
         Schema::create('tab__desportos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('titulo_des');
+            $table->string('descricao_des');
+            $table->string('conteudo_des');
+            $table->string('imagem_des');
         });
     }
 

@@ -43,4 +43,9 @@ Route::get('/form_noticia', [ContactoController:: class, 'form_noticia'])->name(
 Route::get('/form_politica', [ContactoController:: class, 'form_politica'])->name('pag_form_politica');
 
 //
-Route::post('/cadastro', [FuncoesController:: class, 'cadastrar_noticia'])->name('pag_cadastro');
+Route::post('/cadastro_africa', [FuncoesController:: class, 'cadastrar_Africa'])->name('pag_cadastro_africa');
+Route::post('/cadastrar_desporto', [FuncoesController:: class, 'cadastrar_desporto'])->name('pag_cadastrar_desporto');
+Route::post('/cadastrar_cultura', [FuncoesController:: class, 'cadastrar_cultura'])->name('pag_cadastrar_cultura');
+Route::post('/cadastrar_not_diario', [FuncoesController:: class, 'cadastrar_not_diario'])->name('pag_cadastrar_not_diario');
+Route::post('/cadastrar_noticias', [FuncoesController:: class, 'cadastrar_noticias'])->name('pag_cadastrar_noticias');
+Route::post('/cadastrar_politica', [FuncoesController:: class, 'cadastrar_politica'])->name('pag_cadastrar_politica');

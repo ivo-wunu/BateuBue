@@ -14,6 +14,10 @@ return new class extends Migration
         Schema::create('tab__noticia__diarias', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('titulo_not_dia');
+            $table->string('descricao_not_dia');
+            $table->string('conteudo_not_dia');
+            $table->string('imagem_not_dia');   
         });
     }
 

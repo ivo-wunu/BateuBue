@@ -17,31 +17,7 @@
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
-    <div class="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-image">
-                        <img src="{{asset('assetes/images/jorge.jpeg')}}">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="right-content">
-                        <h4>Jorge Jesus &amp; Oliver Kahn</h4>
-                        <span>Jorge Jesus e Oliver Kahn juntos na Arábia Saudita? É possível.</span>
-                        <div class="quote">
-                            <i class="fa fa-quote-left"></i><p>O antigo guardião alemão esteve na sede de treinos do Al Hilal, nesta quinta-feira..</p>
-                        </div>
-                        <p>Oliver Kahn esteve no quartel-general Al Hilal e recebeu uma camisola das mãos de Jorge Jesus. Assistiu ao treino da equipa principal de futebol, que se prepara para defrontar o Al Raed na sexta-feira, na sexta jornada da Liga saudita. Esteve também com Ibrahim Al-Jarbou, atual CEO do Al-Hilal.</p>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- ***** About Area Ends ***** -->
 
     <!-- ***** Our Team Area Starts ***** -->
@@ -50,8 +26,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Portugal</h2>
-                        <span>Notícias em destaque no footbol Portugués.</span>
+                        <h2>DESPORTO</h2>
+                        <span>Notícias em destaque no footbol mundial.</span>
                     </div>
                 </div>
                 <div class="col-lg-4">

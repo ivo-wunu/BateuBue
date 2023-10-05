@@ -14,11 +14,10 @@ return new class extends Migration
         Schema::create('tab__africas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('titulo');
-            $table->string('descricao');
-            $table->string('conteudo');
-            $table->string('imagem');
-            
+            $table->string('titulo_afri');
+            $table->string('descricao_afri');
+            $table->string('conteudo_afri');
+            $table->string('imagem_afri');    
         });
     }
 

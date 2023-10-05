@@ -14,6 +14,10 @@ return new class extends Migration
         Schema::create('tab__politicas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('titulo_poli');
+            $table->string('descricao_poli');
+            $table->string('conteudo_poli');
+            $table->string('imagem_poli'); 
         });
     }
 

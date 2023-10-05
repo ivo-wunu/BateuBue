@@ -15,28 +15,28 @@
                   <h2>Formulario Para Noticias</h2>
                   <!--<span>Details to details is what makes Hexashop different from the other themes.</span>-->
               </div>
-              <form id="contact" action="" method="post">
+              <form id="contact" action="{{route('pag_cadastrar_noticias')}}" method="POST" enctype="multipart/form-data">
                   @csrf
                   <div class="row">
                     <div class="col-lg-6">
                       <fieldset>
-                        <input name="titulo" type="text" id="titulo" placeholder="Titulo"required>
+                        <input name="titulo_not" type="text" id="titulo_not" placeholder="Titulo"required>
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input name="descricao" type="text" id="descricao" placeholder="Coloque Descrição" required>
+                        <input name="descricao_not" type="text" id="descricao_not" placeholder="Coloque Descrição" required>
                       </fieldset>
                     </div><br><br><br>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input name="imagem" type="file" id="imagem" required>
+                        <input name="imagem_not" type="file" id="imagem_not" required>
                       </fieldset>
                     </div>
 
                     <div class="col-lg-12">
                       <fieldset>
-                        <textarea name="conteudo" rows="6" id="conteudo" placeholder="Esvreva aqui o conteudo!" required>
+                        <textarea name="conteudo_not" rows="6" id="conteudo_not" placeholder="Esvreva aqui o conteudo!" required>
                         </textarea>
                       </fieldset>
                     </div>

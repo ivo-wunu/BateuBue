@@ -9,9 +9,9 @@ class Tab_Africa extends Model
 {
     use HasFactory;
     protected $fillable =[
-        'titulo',
-        'descricao',
-        'conteudo',
-        'imagem',
+        'titulo_afri',
+        'descricao_afri',
+        'conteudo_afri',
+        'imagem_afri',
     ];
 }
