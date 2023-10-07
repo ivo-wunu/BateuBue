@@ -33,7 +33,7 @@ class Controller extends BaseController
     public function Menu(){
         return view('Post/manster_form');
     }
-
+    //Form de Cadastro De Materias
     public function form_africa(){
         return view('Formularios/form_africa');
     }
@@ -53,7 +53,51 @@ class Controller extends BaseController
         return view('Formularios/form_politica');
     }
 
+    //Form para editar as materias
+    public function editar_africa(){
+        return view('Editar/editar_africa');
+    }
+    public function editar_cultura(){
+        return view('Editar/editar_cultura');
+    }
+    public function editar_desporto(){
+        return view('Editar/editar_desporto');
+    }
+    public function editar_noticia_diaria(){
+        return view('Editar/editar_not_dia');
+    }
+    public function editar_noticia(){
+        return view('Editar/editar_noticias');
+    }
+    public function editar_politica(){
+        return view('Editar/editar_politica');
+    }
+
+        //Form para Listar as materias
+        public function listar_africa(){
+            return view('Listar/listar_africa');
+        }
+        public function listar_cultura(){
+            return view('Listar/listar_cultura');
+        }
+        public function listar_desporto(){
+            return view('Listar/listar_desporto');
+        }
+        public function listar_noticia_diaria(){
+            return view('Listar/listar_not_dia');
+        }
+        public function listar_noticia(){
+            return view('Listar/listar_noticias');
+        }
+        public function listar_politica(){
+            return view('Listar/listar_politica');
+        }
 
 
+
+        public function texte(){
+            return view('Formularios/form_texte');
+        }
+    
 
 }

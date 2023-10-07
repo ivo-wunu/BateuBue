@@ -114,7 +114,7 @@
             <div class="col-lg-6">
                 <div class="section-heading">
                     <h2>África</h2>
-                    <span>Golpe de Estado no Sudão.</span>
+                    <span>Notícias em destaque</span>
                 </div>
             </div>
         </div>
@@ -129,7 +129,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/luanda.jpg')}}">
@@ -139,30 +138,30 @@
                                 <span>Angola</span>
                             </div>
                         </div>
+                        <!--@-foreach ($dado as $item)-->
                         <div class="item">
                             <div class="thumb">
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="{{asset('assetes/images/rdc2.jpg')}}" alt="">
+                                <!--img src="/assetes/images/{-{$item->imagem_afri}}" alt=""-->
                             </div>
                             <div class="down-content">
                                 <h6>RD Congo. Transição ecológica, a que custo? Relatório expôe face oculta da extração de cobalto e cibre.</h6>
                                 <span>RDC</span>
                             </div>
                         </div>
-                        <div class="item">
+                        <!--@-endforeach-->
+                    <!--    <div class="item">
                             <div class="thumb">
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="{{asset('assetes/images/cabo.jpg')}}" alt="">
+                                <img src="{-{asset('assetes/images/cabo.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>Cabo verde e FAQ assinam programa para acabar com a insegurança alimentar.</h6>
@@ -174,16 +173,15 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
-                                <img src="{{asset('assetes/images/Marrocos.jpg')}}" alt="">
+                                <img src="{-{asset('assetes/images/Marrocos.jpg')}}" alt="">
                             </div>
                             <div class="down-content">
                                 <h4>Marroquinos disponibilizam-se para apoiar populações afectada.</h4>
                                 <span>Marrocos</span>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
