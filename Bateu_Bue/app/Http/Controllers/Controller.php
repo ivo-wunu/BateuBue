@@ -67,7 +67,7 @@ class Controller extends BaseController
         return view('Editar/editar_not_dia');
     }
     public function editar_noticia(){
-        return view('Editar/editar_noticias');
+        return view('Editar/editar_noticia');
     }
     public function editar_politica(){
         return view('Editar/editar_politica');

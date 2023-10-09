@@ -152,8 +152,10 @@ class FuncoesController extends Controller
         Tab_Politica::findOrfail($id)->delete();
         return redirect('/listar_politica')->with('msg', 'Publicação Eliminado Com Sucesso!');
     }
-
-
+    public function edit_africa($id){
+        $africa = Tab_Africa::findOrfail($id);
+        return view('Editar/editar_africa', ['dado'=>$africa]);
+    }
 }    
 /**
     //Editar Informações Africano

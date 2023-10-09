@@ -69,7 +69,7 @@
                             {{$item->descricao_afri}}
                         </td>
                         <td class="project-actions text-right">
-                            <a class="btn btn-info btn-sm" href="#">
+                            <a class="btn btn-info btn-sm" href="{/Editar/editar_africa',$dado->id}">
                                 <i class="fas fa-pencil-alt">
                                 </i>
                                 Edit

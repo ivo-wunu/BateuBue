@@ -40,14 +40,13 @@ Route::get('/form_noticia_diaria', [ContactoController:: class, 'form_noticia_di
 Route::get('/form_noticia', [ContactoController:: class, 'form_noticia'])->name('pag_form_noticia');
 Route::get('/form_politica', [ContactoController:: class, 'form_politica'])->name('pag_form_politica');
 
-//Funções Para Os Formularios De Pubçicação De Conteudos
-Route::get('/editar_africa', [ContactoController:: class, 'edit_africa'])->name('pag_editar_africa');
-Route::get('/editar_cultura', [ContactoController:: class, 'editar_cultura'])->name('pag_editar_cultura');
-Route::get('/editar_desporto', [ContactoController:: class, 'editar_desporto'])->name('pag_editar_desporto');
-Route::get('/editar_noticia_diaria', [ContactoController:: class, 'editar_noticia_diaria'])->name('pag_editar_noticia_diaria');
-Route::get('/editar_noticia', [ContactoController:: class, 'editar_noticia'])->name('pag_editar_noticia');
-Route::get('/editar_politica', [ContactoController:: class, 'editar_politica'])->name('pag_editar_politica');
-Route::get('/texte', [Controller:: class, 'texte'])->name('pag_texte');
+//Funções Para Os Formularios De Editar Conteudos
+Route::get('/editar_africa', [Controller:: class, 'editar_africa'])->name('pag_editar_africa');
+Route::get('/editar_cultura', [Controller:: class, 'editar_cultura'])->name('pag_editar_cultura');
+Route::get('/editar_desporto', [Controller:: class, 'editar_desporto'])->name('pag_editar_desporto');
+Route::get('/editar_noticia_diaria', [Controller:: class, 'editar_noticia_diaria'])->name('pag_editar_noticia_diaria');
+Route::get('/editar_noticia', [Controller:: class, 'editar_noticia'])->name('pag_editar_noticia');
+Route::get('/editar_politica', [Controller:: class, 'editar_politica'])->name('pag_editar_politica');
 
 //Funções Para Fazer Cadastro De Pubçicação De Conteudos
 Route::post('/cadastro_africa', [FuncoesController:: class, 'cadastrar_Africa'])->name('pag_cadastro_africa');
@@ -72,3 +71,6 @@ Route::delete('delete_desporto/{id}', [FuncoesController::class, 'destroy_despor
 Route::delete('delete_not_dia/{id}', [FuncoesController::class, 'destroy_not_dia']);
 Route::delete('delete_noticia/{id}', [FuncoesController::class, 'destroy_noticia']);
 Route::delete('delete_politica/{id}', [FuncoesController::class, 'destroy_politica']);
+
+//Funções Para Etidar Pubçicação De Conteudos
+Route::get('/edit_africa/{id}', [FuncoesController::class, 'edit_africa'])->name('ed_africa');
