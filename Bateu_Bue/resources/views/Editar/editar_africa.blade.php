@@ -20,14 +20,13 @@
                 <h3 class="card-title">Editando... ...</h3>
               </div>
 
-              <form action="{{route('upaluno',$dado->id)}}" method="POST" enctype="multipart/form-data">
+              <form action="" method="" enctype="multipart/form-data">
                 @csrf
-                @method('put')
                 <!--@-foreach ($dado as $item)-->
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleTitle">Titulo</label>
-                    <input type="text" class="form-control" id="titulo_afri" name="titulo_afri" placeholder="Titulo" required value="{{$dado->titulo_afri}}">
+                    <input type="text" class="form-control" id="titulo_afri" name="titulo_afri" placeholder="Titulo" required value="{{$getById->titulo_afri}}">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Imagem</label>
@@ -35,7 +34,7 @@
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" name="imagem_afri" id="imagem_afri">
                         <label class="custom-file-label" for="exampleInputFile">Imagem</label>
-                        <img src="/assetes/images/{{$dado->imagem_afri}}" alt="" class="img-preview" />
+                        <img src="" alt="" class="img-preview" />
                       </div>
                       <div class="input-group-append">
                         <span class="input-group-text">Upload</span>
@@ -47,13 +46,13 @@
 
                       <div class="form-group">
                         <label>Descrição</label>
-                        <textarea class="form-control" rows="3" name="descricao_afri" id="descricao_afri" placeholder="desscrição ..." velue="{{$dado->descricao_afri}}"></textarea>
+                        <textarea class="form-control" rows="3" name="descricao_afri" id="descricao_afri" placeholder="desscrição ..." velue="{{$getById->descricao_afri}}"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Conteudo</label>
-                        <textarea class="form-control" rows="3" name="conteudo_afri" id="conteudo_afri" placeholder="conteudo ..." velue="{{$dado->conteudo_afri}}"></textarea>
+                        <textarea class="form-control" rows="3" name="conteudo_afri" id="conteudo_afri" placeholder="conteudo ..." velue="{{$getById->conteudo_afri}}"></textarea>
                       </div>
                     </div>
                   </div>

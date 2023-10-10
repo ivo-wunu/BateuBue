@@ -65,37 +65,37 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('pag_editar_africa')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar África</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('pag_editar_cultura')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar Cultura</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('pag_editar_desporto')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar Desporto</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('pag_editar_noticia_diaria')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar Not Diária</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('pag_editar_noticia')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar Notícia</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('pag_editar_politica')}}" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Editar Política</p>
                 </a>

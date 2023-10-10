@@ -9,10 +9,9 @@ use App\Models\Tab_Desporto;
 use App\Models\Tab_Noticia_Diaria;
 use App\Models\Tab_Noticia;
 use App\Models\Tab_Politica;
-
+use Illuminate\Support\Facades\DB;
 class FuncoesController extends Controller
 {
-
     //Cadastrar Informações Africano
     public function cadastrar_Africa(Request $receber){
         $dadoAfrica=$receber->only('titulo_afri','descricao_afri', 'conteudo_afri');//Pega dadoss
@@ -94,8 +93,16 @@ class FuncoesController extends Controller
 
     //Listar Informações de África
     public function listar_africa(){
-        $listar_afri=Tab_Africa::get();
-        return view('Listar/listar_africa', ['dado'=>$listar_afri]);
+        $dados= DB::table('tab__africas')
+        ->select('tab__africas.*')
+        ->get();
+        $infor= DB::table('tab__africas')
+        ->select('tab__africas.id')
+        ->get()
+        ->first();
+
+       // dd($dados);
+        return view('Listar/listar_africa', ['dado'=>$dados, 'info'=>$infor]);
     }
     //Listar Informações de Cultura
     public function listar_cultura(){
@@ -122,6 +129,7 @@ class FuncoesController extends Controller
         $listar_poli=Tab_Politica::get();
         return view('Listar/listar_politica', ['dado'=>$listar_poli]);
     }
+
     //Eliminar Informações Africano
     public function destroy_africa($id){
         Tab_Africa::findOrfail($id)->delete();
@@ -152,10 +160,12 @@ class FuncoesController extends Controller
         Tab_Politica::findOrfail($id)->delete();
         return redirect('/listar_politica')->with('msg', 'Publicação Eliminado Com Sucesso!');
     }
-    public function edit_africa($id){
-        $africa = Tab_Africa::findOrfail($id);
-        return view('Editar/editar_africa', ['dado'=>$africa]);
-    }
+
+    /**public function edit_africa(Request $id){
+        $getId= $id->
+        return view('Editar/editar_africa', ['item'=>$ver_af]);
+    }**/
+
 }    
 /**
     //Editar Informações Africano

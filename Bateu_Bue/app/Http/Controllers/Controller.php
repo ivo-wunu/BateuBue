@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use App\Models\Tab_Africa;
+use GuzzleHttp\Psr7\Request;
+use Illuminate\Support\Facades\DB;
 
 class Controller extends BaseController
 {
@@ -55,7 +58,14 @@ class Controller extends BaseController
 
     //Form para editar as materias
     public function editar_africa(){
-        return view('Editar/editar_africa');
+        $dados = DB::table('tab__africas')
+        ->select('tab__africas.id','tab__africas.titulo_afri','tab__africas.descricao_afri'
+        , 'tab__africas.conteudo_afri', 'tab__africas.imagem_afri')
+        ->get()
+        
+        ;
+
+        return view('Editar/editar_africa', ['getById'=> $dados]);
     }
     public function editar_cultura(){
         return view('Editar/editar_cultura');
@@ -95,8 +105,8 @@ class Controller extends BaseController
 
 
 
-        public function texte(){
-            return view('Formularios/form_texte');
+        public function ver_africa(){
+            return view('Paginas/africa');
         }
     
 
