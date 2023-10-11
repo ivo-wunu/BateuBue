@@ -24,7 +24,7 @@
                     <p>Copyright © 2023 LUA-DEIRA BUSSENES. All Rights Reserved.</p> 
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{route('pag_listar_africa')}}"><i class="fa fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>

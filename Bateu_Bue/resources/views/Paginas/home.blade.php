@@ -210,7 +210,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/iraque.jpg')}}" alt="">
@@ -225,7 +224,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/russia.jpg')}}">
@@ -240,7 +238,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/sic.jpg')}}">
@@ -255,7 +252,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/tuga.jpg')}}">
@@ -293,7 +289,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/delero2.jpg')}}" alt="">
@@ -308,7 +303,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/delero2.jpg')}}" alt="">
@@ -323,7 +317,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/delero2.jpg')}}">
@@ -338,7 +331,6 @@
                                 <div class="hover-content">
                                     <ul>
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                     </ul>
                                 </div>
                                 <img src="{{asset('assetes/images/delero2.jpg')}}">

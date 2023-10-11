@@ -36,7 +36,6 @@
                             <div class="hover-content">
                                 <ul>
                                     <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
                             <img src="{{asset('assetes/images/luanda2.jpeg')}}">
@@ -53,7 +52,6 @@
                             <div class="hover-content">
                                 <ul>
                                     <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
                             <img src="{{asset('assetes/images/luanda2.jpeg')}}">
@@ -70,109 +68,6 @@
                             <div class="hover-content">
                                 <ul>
                                     <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="{{asset('assetes/images/luanda2.jpeg')}}">
-                        </div>
-                        <div class="down-content">
-                            <h6>Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.Subida de Preços em Angola acelera em agosto e colocou inflação homóloga nos 13,54%.</h6>
-                            <span>Angola</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                    <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
                                 </ul>
                             </div>
                             <img src="{{asset('assetes/images/luanda2.jpeg')}}">

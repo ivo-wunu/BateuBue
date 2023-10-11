@@ -37,7 +37,6 @@
                                 <div class="inner-content">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -56,7 +55,6 @@
                                 <div class="inner-content">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -75,7 +73,6 @@
                                 <div class="inner-content">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

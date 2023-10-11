@@ -57,16 +57,23 @@ class Controller extends BaseController
     }
 
     //Form para editar as materias
-    public function editar_africa(){
+   /* public function editar_africa(){
         $dados = DB::table('tab__africas')
         ->select('tab__africas.id','tab__africas.titulo_afri','tab__africas.descricao_afri'
         , 'tab__africas.conteudo_afri', 'tab__africas.imagem_afri')
-        ->get()
-        
-        ;
+        ->get();
 
         return view('Editar/editar_africa', ['getById'=> $dados]);
     }
+    */
+    public function editar_africa($id){
+        $afri = Tab_Africa::findOrFail($id);
+        return view('Editar/editar_africa', ['tab__africas' => $afri]);
+    }
+    /**public function update(Request $request){
+        Tab_Africa::findOfFail($request->$id) -> update($request->all());
+        return redirect('/listar_not_dia')->with('msg', 'Publicação Atualizada Com Sucesso!');
+    }**/
     public function editar_cultura(){
         return view('Editar/editar_cultura');
     }

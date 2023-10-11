@@ -92,7 +92,7 @@ class FuncoesController extends Controller
     }
 
     //Listar Informações de África
-    public function listar_africa(){
+    /**public function listar_africa(){
         $dados= DB::table('tab__africas')
         ->select('tab__africas.*')
         ->get();
@@ -103,6 +103,10 @@ class FuncoesController extends Controller
 
        // dd($dados);
         return view('Listar/listar_africa', ['dado'=>$dados, 'info'=>$infor]);
+    }**/
+    public function listar_africa(){
+        $listar_afri=Tab_Africa::get();
+        return view('Listar/listar_africa', ['dado'=>$listar_afri]);
     }
     //Listar Informações de Cultura
     public function listar_cultura(){

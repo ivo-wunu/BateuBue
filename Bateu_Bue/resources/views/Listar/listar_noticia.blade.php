@@ -55,7 +55,7 @@
                         <td>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <<img alt="" class="table-avatar" src="../../assetes/images/{{$item->imagem_not}}">
+                                    <img alt="" class="table-avatar" src="../../assetes/images/{{$item->imagem_not}}">
                                     {{$item->imagem_not}}
                                 </li>
                             </ul>

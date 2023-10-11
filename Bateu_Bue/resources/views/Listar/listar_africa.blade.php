@@ -69,12 +69,11 @@
                             {{$item->descricao_afri}}
                         </td>
                         <td class="project-actions text-right">
-                            <a class="btn btn-info btn-sm" href="{{route('pag_editar_africa', $item->id)}}" >
-                                <button>
+                            <a class="btn btn-info btn-sm" href="{{route('edit_afri',$item->id)}}">
+                            <!--a class="btn btn-info btn-sm" href="{-{route('pag_editar_africa', $item->id)}}"-->
                                 <i class="fas fa-pencil-alt">
                                 </i>
                                 Edit
-                                </button>
                             </a>
                             <form action="/delete_africa/{{$item->id}}" method="POST">
                                 @csrf
