@@ -25,12 +25,12 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="{{route('pag_cadastrar_desporto')}}" method="POST" enctype="multipart/form-data">
+              <form action="/Editar/update{{$des->id}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleTitle">Titulo</label>
-                    <input type="text" class="form-control" id="titulo_des" name="titulo_des" placeholder="Titulo" required>
+                    <input type="text" class="form-control" id="titulo_des" name="titulo_des" placeholder="Titulo" required value="{{$des->titulo_des}}>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Imagem</label>
@@ -49,13 +49,13 @@
                       <!-- textarea -->
                       <div class="form-group">
                         <label>Descrição</label>
-                        <textarea class="form-control" rows="3" name="descricao_des" id="descricao_des" placeholder="desscrição ..."></textarea>
+                        <textarea class="form-control" rows="3" name="descricao_des" id="descricao_des" placeholder="desscrição ..." value="{{$des->descricao_des}}"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Conteudo</label>
-                        <textarea class="form-control" rows="3" name="conteudo_des" id="conteudo_des" placeholder="conteudo ..."></textarea>
+                        <textarea class="form-control" rows="3" name="conteudo_des" id="conteudo_des" placeholder="conteudo ..." value="{{$des->conteudo_des}}"></textarea>
                       </div>
                     </div>
                   </div>

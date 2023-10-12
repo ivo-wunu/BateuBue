@@ -25,12 +25,12 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="{{route('pag_cadastrar_not_diario')}}" method="POST" enctype="multipart/form-data">
+              <form action="/Editar/update{{$not_dia->id}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleTitle">Titulo</label>
-                    <input type="text" class="form-control" id="titulo_not_dia" name="titulo_not_dia" placeholder="Titulo" required>
+                    <input type="text" class="form-control" id="titulo_not_dia" name="titulo_not_dia" placeholder="Titulo" required value="{{$not_dia->titulo_not_dia}}">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Imagem</label>
@@ -49,13 +49,13 @@
                       <!-- textarea -->
                       <div class="form-group">
                         <label>Descrição</label>
-                        <textarea class="form-control" rows="3" name="descricao_not_dia" id="descricao_not_dia" placeholder="desscrição ..."></textarea>
+                        <textarea class="form-control" rows="3" name="descricao_not_dia" id="descricao_not_dia" placeholder="desscrição ..." value="{{$not_dia->descricao_not_dia}}"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Conteudo</label>
-                        <textarea class="form-control" rows="3" name="conteudo_not_dia" id="conteudo_not_dia" placeholder="conteudo ..."></textarea>
+                        <textarea class="form-control" rows="3" name="conteudo_not_dia" id="conteudo_not_dia" placeholder="conteudo ..." value="{{$not_dia->conteudo_not_dia}}"></textarea>
                       </div>
                     </div>
                   </div>

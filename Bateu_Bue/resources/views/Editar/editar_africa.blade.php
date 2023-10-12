@@ -49,7 +49,7 @@
                       <div class="form-group">
                         <label>Descrição</label>
                         <textarea class="form-control" rows="3" name="descricao_afri" id="descricao_afri" placeholder="descrição ..." velue="{{$afri->descricao_afri}}">
-                        <!--<textarea class="form-control" rows="3" name="descricao_afri" id="descricao_afri" placeholder="desscrição ..." velue="{-{$getById->descricao_afri}}"></textarea>-->
+                        <!--<textarea class="form-control" rows="3" name="descricao_afri" id="descricao_afri" placeholder="desscrição ..." velue="{-{$getById->descricao_afri}}"--></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">

@@ -25,12 +25,12 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="{{route('pag_cadastrar_politica')}}" method="POST" enctype="multipart/form-data">
+              <form action="/Editar/update{{$pol->id}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleTitle">Titulo</label>
-                    <input type="text" class="form-control" id="titulo_poli" name="titulo_poli" placeholder="Titulo" required>
+                    <input type="text" class="form-control" id="titulo_poli" name="titulo_poli" placeholder="Titulo" required value="{{$pol->titulo_poli}}">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Imagem</label>
@@ -49,13 +49,13 @@
                       <!-- textarea -->
                       <div class="form-group">
                         <label>Descrição</label>
-                        <textarea class="form-control" rows="3" name="descricao_poli" id="descricao_poli" placeholder="desscrição ..."></textarea>
+                        <textarea class="form-control" rows="3" name="descricao_poli" id="descricao_poli" placeholder="desscrição ..." value="{{$pol->descricao_poli}}"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Conteudo</label>
-                        <textarea class="form-control" rows="3" name="conteudo_poli" id="conteudo_poli" placeholder="conteudo ..."></textarea>
+                        <textarea class="form-control" rows="3" name="conteudo_poli" id="conteudo_poli" placeholder="conteudo ..." value="{{$pol->conteudo_poli}}"></textarea>
                       </div>
                     </div>
                   </div>

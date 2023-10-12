@@ -64,11 +64,11 @@ Route::delete('delete_politica/{id}', [FuncoesController::class, 'destroy_politi
 //Route Para Os Formularios De Editar Conteudos
 //Route::get('/editar_africa/{id}', [Controller:: class, 'editar_africa'])->name('pag_editar_africa');
 Route::get('/Editar/editar_africa/{id}', [Controller:: class, 'editar_africa'])->name('edit_afri');
-Route::get('/editar_cultura', [Controller:: class, 'editar_cultura']);
-Route::get('/editar_desporto', [Controller:: class, 'editar_desporto']);
-Route::get('/editar_noticia_diaria', [Controller:: class, 'editar_noticia_diaria']);
-Route::get('/editar_noticia', [Controller:: class, 'editar_noticia']);
-Route::get('/editar_politica', [Controller:: class, 'editar_politica']);
+Route::get('/Editar/editar_cultura/{id}', [Controller:: class, 'editar_cultura'])->name('edit_cult');
+Route::get('/Editar/editar_desporto/{id}', [Controller:: class, 'editar_desporto'])->name('edit_des');
+Route::get('/Editar/editar_noticia_diaria/{id}', [Controller:: class, 'editar_noticia_diaria'])->name('edit_n_dia');
+Route::get('/Editar/editar_noticia/{id}', [Controller:: class, 'editar_noticia'])->name('edit_not');
+Route::get('/Editar/editar_politica/{id}', [Controller:: class, 'editar_politica'])->name('edit_pol');
 
 //Funções Para Ver Pubçicação De Conteudos
 //Route::get('/Editar/editar_africa/{id}', [FuncoesController:: class, 'edit_africa']);

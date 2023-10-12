@@ -25,12 +25,12 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="{{route('pag_cadastrar_cultura')}}" method="POST" enctype="multipart/form-data">
+              <form action="/Editar/update{{$cul->id}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleTitle">Titulo</label>
-                    <input type="text" class="form-control" id="titulo_cult" name="titulo_cult" placeholder="Titulo" required>
+                    <input type="text" class="form-control" id="titulo_cult" name="titulo_cult" placeholder="Titulo" required value="{{$cul->titulo_cult}}">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputFile">Imagem</label>
@@ -38,6 +38,7 @@
                       <div class="custom-file">
                         <input type="file" class="custom-file-input" name="imagem_cult" id="imagem_cult">
                         <label class="custom-file-label" for="exampleInputFile">Imagem</label>
+                        <img src="/assetes/images/{{$cul->imagem_cult}}" alt="" class="img-preview"/>
                       </div>
                       <div class="input-group-append">
                         <span class="input-group-text">Upload</span>
@@ -49,13 +50,13 @@
                       <!-- textarea -->
                       <div class="form-group">
                         <label>Descrição</label>
-                        <textarea class="form-control" rows="3" name="descricao_cult" id="descricao_cult" placeholder="desscrição ..."></textarea>
+                        <textarea class="form-control" rows="3" name="descricao_cult" id="descricao_cult" placeholder="desscrição ..." value="{{$cul->descricao_cult}}"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Conteudo</label>
-                        <textarea class="form-control" rows="3" name="conteudo_cult" id="conteudo_cult" placeholder="conteudo ..."></textarea>
+                        <textarea class="form-control" rows="3" name="conteudo_cult" id="conteudo_cult" placeholder="conteudo ..." value="{{$cul->conteudo_cult}}"></textarea>
                       </div>
                     </div>
                   </div>

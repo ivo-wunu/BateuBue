@@ -69,7 +69,7 @@
                             {{$item->descricao_not_dia}}
                         </td>
                         <td class="project-actions text-right">
-                            <a class="btn btn-info btn-sm" href="#">
+                            <a class="btn btn-info btn-sm" href="{{route('edit_n_dia',$item->id)}}">
                                 <i class="fas fa-pencil-alt">
                                 </i>
                                 Edit

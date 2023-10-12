@@ -6,6 +6,11 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use App\Models\Tab_Africa;
+use App\Models\Tab_Cultura;
+use App\Models\Tab_Desporto;
+use App\Models\Tab_Noticia;
+use App\Models\Tab_Noticia_Diaria;
+use App\Models\Tab_Politica;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -68,26 +73,32 @@ class Controller extends BaseController
     */
     public function editar_africa($id){
         $afri = Tab_Africa::findOrFail($id);
-        return view('Editar/editar_africa', ['tab__africas' => $afri]);
+        return view('Editar/editar_africa', ['afri' => $afri]);
     }
-    /**public function update(Request $request){
+    /*public function update(Request $request){
         Tab_Africa::findOfFail($request->$id) -> update($request->all());
         return redirect('/listar_not_dia')->with('msg', 'Publicação Atualizada Com Sucesso!');
-    }**/
-    public function editar_cultura(){
-        return view('Editar/editar_cultura');
+    }*/
+    public function editar_cultura($id){
+        $cul = Tab_Cultura::findOrFail($id);
+        return view('Editar/editar_cultura', ['cul'=> $cul]);
     }
-    public function editar_desporto(){
-        return view('Editar/editar_desporto');
+
+    public function editar_desporto($id){
+        $des = Tab_Desporto::findOrFail($id);
+        return view('Editar/editar_desporto', ['des'=> $des]);
     }
-    public function editar_noticia_diaria(){
-        return view('Editar/editar_not_dia');
+    public function editar_noticia_diaria($id){
+        $not_dia = Tab_Noticia_Diaria::findOrFail($id);
+        return view('Editar/editar_not_dia', ['not_dia'=> $not_dia]);
     }
-    public function editar_noticia(){
-        return view('Editar/editar_noticia');
+    public function editar_noticia($id){
+        $not = Tab_Noticia::findOrFail($id);
+        return view('Editar/editar_noticia', ['not'=> $not]);
     }
-    public function editar_politica(){
-        return view('Editar/editar_politica');
+    public function editar_politica($id){
+        $pol = Tab_Politica::findOrFail($id);
+        return view('Editar/editar_politica', ['pol'=> $pol]);
     }
 
         //Form para Listar as materias
