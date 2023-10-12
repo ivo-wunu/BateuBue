@@ -91,19 +91,6 @@ class FuncoesController extends Controller
         return redirect('/listar_politica')->with("msg","Informação Cadastrada Com Sucesso");
     }
 
-    //Listar Informações de África
-    /**public function listar_africa(){
-        $dados= DB::table('tab__africas')
-        ->select('tab__africas.*')
-        ->get();
-        $infor= DB::table('tab__africas')
-        ->select('tab__africas.id')
-        ->get()
-        ->first();
-
-       // dd($dados);
-        return view('Listar/listar_africa', ['dado'=>$dados, 'info'=>$infor]);
-    }**/
     public function listar_africa(){
         $listar_afri=Tab_Africa::get();
         return view('Listar/listar_africa', ['dado'=>$listar_afri]);
@@ -165,30 +152,10 @@ class FuncoesController extends Controller
         return redirect('/listar_politica')->with('msg', 'Publicação Eliminado Com Sucesso!');
     }
 
-    /**public function edit_africa(Request $id){
-        $getId= $id->
-        return view('Editar/editar_africa', ['item'=>$ver_af]);
-    }**/
 
-}    
-/**
-    //Editar Informações Africano
-    public function edit_africa(Request $dados){
-        $id=$dados->id;
-        $titulo_afri=Tab_Africa::find($id);
-        return view('Music.editarMussic', ['titulo_afri'=>$titulo_afri]);
+    public function mostar_africa(){
+        $ver_afri= Tab_Africa::get();
+        return view('Paginas/africa', ['ver_afri'=>$ver_afri]);
     }
 
-    public function verMusic(Request $request){
-        $id=$request->id;
-        $musica=music::find($id);
-        return view('Music.verMusic', ['mus'=>musica]);
-    }
-    
-    public function deletMusic($id_music){
-        $dados = Music::findOrFail($id_music);
-        $dados->delete();
-        $musicas = Music::all();
-        return view('formulario_music')->whith('musics', $musicas);
-    }
-**/
+}

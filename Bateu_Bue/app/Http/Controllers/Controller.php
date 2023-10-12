@@ -61,16 +61,6 @@ class Controller extends BaseController
         return view('Formularios/form_politica');
     }
 
-    //Form para editar as materias
-   /* public function editar_africa(){
-        $dados = DB::table('tab__africas')
-        ->select('tab__africas.id','tab__africas.titulo_afri','tab__africas.descricao_afri'
-        , 'tab__africas.conteudo_afri', 'tab__africas.imagem_afri')
-        ->get();
-
-        return view('Editar/editar_africa', ['getById'=> $dados]);
-    }
-    */
     public function editar_africa($id){
         $afri = Tab_Africa::findOrFail($id);
         return view('Editar/editar_africa', ['afri' => $afri]);
@@ -124,7 +114,8 @@ class Controller extends BaseController
 
 
         public function ver_africa(){
-            return view('Paginas/africa');
+            $ver_afri= Tab_Africa::get();
+            return view('Paginas/africa', ['ver_afri'=>$ver_afri]);
         }
     
 

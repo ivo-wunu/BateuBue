@@ -30,7 +30,7 @@
         </div>
         <div class="container">
             <div class="row">
-                @foreach ($ver_af as $itens)
+                @foreach ($ver_afri as $itens)
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="thumb">
