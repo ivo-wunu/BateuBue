@@ -19,22 +19,32 @@ class Controller extends BaseController
     use AuthorizesRequests, ValidatesRequests;
 
     public function home(){
-        return view('Paginas/home');
+        $afri = Tab_Africa::get();
+        $cult = Tab_Cultura::get();
+        $des = Tab_Desporto::get();
+        $n_dia = Tab_Noticia_Diaria::get();
+        $poli = Tab_Politica::get();
+        return view('Paginas/home', ['afri'=>$afri, 'cult'=>$cult, 'des'=>$des, 'n_dia'=>$n_dia, 'poli'=>$poli]);
     }
     public function desporto(){
-        return view('Paginas/desporto');
+        $ver_desp= Tab_Desporto::get();
+        return view('Paginas/desporto', ['ver_desp'=>$ver_desp]);
     }
     public function africa(){
-        return view('Paginas/africa');
+        $ver_afri= Tab_Africa::get();
+        return view('Paginas/africa', ['ver_afri'=>$ver_afri]);
     }
     public function cultura(){
-        return view('Paginas/cultura');
+        $ver_cult= Tab_Cultura::get();
+        return view('Paginas/cultura', ['ver_cult'=>$ver_cult]);
     }
     public function politica(){
-        return view('Paginas/politica');
+        $ver_poli= Tab_Politica::get();
+        return view('Paginas/politica', ['ver_poli'=>$ver_poli]);
     }
     public function noticias(){
-        return view('Paginas/noticias');
+        $ver_not= Tab_Noticia::get();
+        return view('Paginas/noticias', ['ver_not'=>$ver_not]);
     }
 
     //Funções Para Os Formularios De Pubçicação De Conteudos
@@ -110,13 +120,5 @@ class Controller extends BaseController
         public function listar_politica(){
             return view('Listar/listar_politica');
         }
-
-
-
-        public function ver_africa(){
-            $ver_afri= Tab_Africa::get();
-            return view('Paginas/africa', ['ver_afri'=>$ver_afri]);
-        }
-    
 
 }

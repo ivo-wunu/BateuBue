@@ -138,7 +138,7 @@
                                 <span>Angola</span>
                             </div>
                         </div>
-                        <!--@-foreach ($dado as $item)-->
+                        
                         <div class="item">
                             <div class="thumb">
                                 <div class="hover-content">
@@ -146,15 +146,15 @@
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
                                     </ul>
                                 </div>
-                                <!--img src="/assetes/images/{-{$item->imagem_afri}}" alt=""-->
+                                <img src="" alt="">
                             </div>
                             <div class="down-content">
                                 <h6>RD Congo. Transição ecológica, a que custo? Relatório expôe face oculta da extração de cobalto e cibre.</h6>
                                 <span>RDC</span>
                             </div>
                         </div>
-                        <!--@-endforeach-->
-                    <!--    <div class="item">
+                        
+                        <div class="item">
                             <div class="thumb">
                                 <div class="hover-content">
                                     <ul>
@@ -181,7 +181,7 @@
                                 <h4>Marroquinos disponibilizam-se para apoiar populações afectada.</h4>
                                 <span>Marrocos</span>
                             </div>
-                        </div>-->
+                        </div>
                     </div>
                 </div>
             </div>

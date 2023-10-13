@@ -152,10 +152,4 @@ class FuncoesController extends Controller
         return redirect('/listar_politica')->with('msg', 'Publicação Eliminado Com Sucesso!');
     }
 
-
-    public function mostar_africa(){
-        $ver_afri= Tab_Africa::get();
-        return view('Paginas/africa', ['ver_afri'=>$ver_afri]);
-    }
-
 }

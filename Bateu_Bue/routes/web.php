@@ -72,7 +72,3 @@ Route::get('/Editar/editar_politica/{id}', [Controller:: class, 'editar_politica
 
 
 Route::put('/Editar/update/{id}', [Controller:: class, 'update']);
-
-
-Route::get('mostrar_africa', [FuncoesController:: class, 'mostar_africa'])->name('mostrar_afri');
-Route::get('mostrar_africa', [Controller:: class, 'ver_africa'])->name('mostrar_afri');
